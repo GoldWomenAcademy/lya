@@ -1,13 +1,13 @@
 <?php
 
-// Files CSS and JS
+// CSS and JS Files
 
-function lya_add_theme_scripts() 
+function lya_add_theme_scripts()
 {
-    // CSS 
+    // CSS
     wp_enqueue_style('bootstrap-grid', get_template_directory_uri() . '/assets/css/bootstrap-grid.min.css');
-    wp_enqueue_style('fontawesome', 'https://use.fontawesome.com/releases/v5.15.1/css/all.css');
-    wp_enqueue_style('googlefonts', 'https://fonts.googleapis.com/css?family=Lato:400,700|Nunito:700'); 
+    wp_enqueue_style('fontawesome', 'https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+    wp_enqueue_style('googlefonts', 'https://fonts.googleapis.com/css?family=Lato:400,700|Nunito:700');
     wp_enqueue_style('style', get_stylesheet_uri());
 
     // JS
