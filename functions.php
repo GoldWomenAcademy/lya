@@ -16,3 +16,14 @@ function lya_add_theme_scripts()
 }
 
 add_action('wp_enqueue_scripts', 'lya_add_theme_scripts');
+
+// Menu
+
+function lya_register_menus() 
+{
+    register_nav_menus ([
+        'main-menu' => 'Menu Header',
+    ]);
+}
+
+add_action('ini', 'lya_register_menus');
