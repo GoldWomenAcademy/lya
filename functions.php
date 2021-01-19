@@ -19,11 +19,11 @@ add_action('wp_enqueue_scripts', 'lya_add_theme_scripts');
 
 // Menu
 
-function lya_register_menus() 
+function lya()
 {
-    register_nav_menus ([
-        'main-menu' => 'Menu Header',
+    register_nav_menus([
+        'main-menu' => 'Menu du Header',
     ]);
 }
 
-add_action('ini', 'lya_register_menus');
+add_action('init', 'lya');
