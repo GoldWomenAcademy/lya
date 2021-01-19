@@ -6,7 +6,7 @@
     <title><?php wp_title(' - ', true, 'right'); ?><?php bloginfo('name'); ?></title>
     <?php wp_head();?>
 </head>
-<body>
+<body <?php body_class(); ?>>
     <?php wp_footer(); ?>
 </body>
 </html>
