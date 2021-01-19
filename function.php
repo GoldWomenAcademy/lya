@@ -9,6 +9,7 @@ function lya_add_theme_scripts()
     wp_enqueue_style('fontawesome', 'https://use.fontawesome.com/releases/v5.15.1/css/all.css'); 
     wp_enqueue_style('style', get_stylesheet_uri());
 
+    // JS
     
 }
 
