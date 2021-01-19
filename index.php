@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
          <div class="row">
                 <div class="col-12 col-md-4 col-xl-3">
                     <div class="sidebar">
@@ -39,7 +40,3 @@
                     </div>
                 </div>
             </div>
-        </main>
-    <?php wp_footer(); ?>
-</body>
-</html>
