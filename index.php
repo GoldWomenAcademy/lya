@@ -8,10 +8,9 @@
             <div class="col-lg-6">
                 <?php if (have_posts()) : ?>
                     <?php while (have_posts()) : the_post(); ?>
+                        <?php get_template_part('template-parts/post/content', 'post-and-formation'); ?>
                     <?php endwhile; ?>
                 <?php endif; ?>
-                <?php get_template_part('template-parts/post/content', 'post-and-formation'); ?>
-
             </div>
         </div>
     </div>
