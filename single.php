@@ -6,10 +6,10 @@
             <article>
                 <div class="nextandprev d-flex flex-wrap justify-content-between">
                     <div class="next">
-                        <?php next_post_link(); ?>
+                        <?php next_post_link('%link'); ?>
                     </div>
                     <div class="prev">
-                        <?php get_preview_post_link(); ?>
+                    <?php previous_post_link('%link'); ?>
                     </div>
                 </div>
                 <div class="infos">
