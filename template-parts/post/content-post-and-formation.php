@@ -1,9 +1,8 @@
 <article>
     <div class="infos">
         <div class="cats-date">
-            <a href="">CAT1</a>,
-            <a href="">CAT2</a>
-            <time datetime="2018-06-20 16:20">/ 20 JUIN 2018</time>
+        <?php the_category(', '); ?>
+            <time datetime="2018-06-20 16:20">/ <?php the_time('j F Y') ?></time>
         </div>
         <div class="tags d-flex flex-wrap">
             <a href="">tag1</a>
