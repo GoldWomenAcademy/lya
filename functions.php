@@ -27,3 +27,20 @@ function lya()
 }
 
 add_action('init', 'lya');
+
+// SIDEBAR
+
+function lya_widgets_init()
+{
+    register_sidebar([
+        'id' => 'blog',
+        'name' => 'Sidebar du blog',
+        'description' => 'Sidebar à gauche du blog',
+        'before_widget' => '<aside class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>',
+    ]);
+}
+
+add_action('widgets_init', 'lya_widgets_init');
