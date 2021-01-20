@@ -27,6 +27,7 @@
         <?php endwhile; ?>
     <?php endif; ?>
             <!-- Les commentaires -->
+    <?php comments_template(); ?>
         </div>
 
 <?php get_footer(); ?>
