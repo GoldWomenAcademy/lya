@@ -6,10 +6,10 @@
             <article>
                 <div class="nextandprev d-flex flex-wrap justify-content-between">
                     <div class="next">
-                        <a href="">LIEN VERS LE POST PLUS RECENT</a>
+                        <?php next_post_link(); ?>
                     </div>
                     <div class="prev">
-                        <a href="">LIEN VERS LE POST PLUS ANCIEN</a>
+                    <?php get_preview_post_link(); ?>
                     </div>
                 </div>
                 <div class="infos">
