@@ -18,8 +18,7 @@
                     <?php the_tags('<div class="tags d-flex flex-wrap">', '', '</div>'); ?>
                     <h1><?php the_title(); ?></h1>
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit deserunt blanditiis, dolor, rerum totam optio, odio repellat tempora est reiciendis debitis nisi enim. Quasi dolorum culpa itaque repellendus mollitia tempore cumque pariatur, delectus error dolor quia ea neque veritatis blanditiis porro totam, accusamus ducimus nobis ipsum! Perferendis aut omnis rem ea voluptatum vero, dolores, aliquid amet recusandae reprehenderit assumenda distinctio eveniet voluptate consequuntur blanditiis sequi</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit deserunt blanditiis, dolor, rerum totam optio, odio repellat tempora est reiciendis debitis nisi enim. Quasi dolorum culpa itaque repellendus mollitia tempore cumque pariatur, delectus error dolor quia ea neque veritatis blanditiis porro totam, accusamus ducimus nobis ipsum! Perferendis aut omnis rem ea voluptatum vero, dolores, aliquid amet recusandae reprehenderit assumenda distinctio eveniet voluptate consequuntur blanditiis sequi</p>
+                        <?php the_content(); ?>
                     </div>
                 </div>
             </article>
