@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
 <div class="items item">
+    <?php if (have_posts()) : ?>
+        <?php while (have_posts()) : the_post(); ?>
             <article>
                 <div class="nextandprev d-flex flex-wrap justify-content-between">
                     <div class="next">
@@ -22,8 +24,9 @@
                     </div>
                 </div>
             </article>
+        <?php endwhile; ?>
+    <?php endif; ?>
             <!-- Les commentaires -->
         </div>
-
 
 <?php get_footer(); ?>
