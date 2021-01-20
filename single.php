@@ -9,7 +9,7 @@
                         <?php next_post_link(); ?>
                     </div>
                     <div class="prev">
-                    <?php get_preview_post_link(); ?>
+                        <?php get_preview_post_link(); ?>
                     </div>
                 </div>
                 <div class="infos">
